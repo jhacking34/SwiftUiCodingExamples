@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F6BD0DA9265F577300AB56DC /* SwiftUiCodingExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD0DA8265F577300AB56DC /* SwiftUiCodingExamplesApp.swift */; };
-		F6BD0DAB265F577300AB56DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD0DAA265F577300AB56DC /* ContentView.swift */; };
+		F6BD0DAB265F577300AB56DC /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD0DAA265F577300AB56DC /* Main.swift */; };
 		F6BD0DAD265F577500AB56DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BD0DAC265F577500AB56DC /* Assets.xcassets */; };
 		F6BD0DB0265F577500AB56DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BD0DAF265F577500AB56DC /* Preview Assets.xcassets */; };
+		F6BD0DBA265F591C00AB56DC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD0DB9265F591C00AB56DC /* HeaderView.swift */; };
+		F6BD0DBC265F5B1000AB56DC /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD0DBB265F5B1000AB56DC /* DescView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F6BD0DA5265F577300AB56DC /* SwiftUiCodingExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiCodingExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6BD0DA8265F577300AB56DC /* SwiftUiCodingExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiCodingExamplesApp.swift; sourceTree = "<group>"; };
-		F6BD0DAA265F577300AB56DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6BD0DAA265F577300AB56DC /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		F6BD0DAC265F577500AB56DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6BD0DAF265F577500AB56DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F6BD0DB1265F577500AB56DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6BD0DB9265F591C00AB56DC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F6BD0DBB265F5B1000AB56DC /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,10 @@
 		F6BD0DA7265F577300AB56DC /* SwiftUiCodingExamples */ = {
 			isa = PBXGroup;
 			children = (
+				F6BD0DB8265F58DC00AB56DC /* Model */,
+				F6BD0DB7265F58CA00AB56DC /* View */,
 				F6BD0DA8265F577300AB56DC /* SwiftUiCodingExamplesApp.swift */,
-				F6BD0DAA265F577300AB56DC /* ContentView.swift */,
+				F6BD0DAA265F577300AB56DC /* Main.swift */,
 				F6BD0DAC265F577500AB56DC /* Assets.xcassets */,
 				F6BD0DB1265F577500AB56DC /* Info.plist */,
 				F6BD0DAE265F577500AB56DC /* Preview Content */,
@@ -67,6 +73,22 @@
 				F6BD0DAF265F577500AB56DC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6BD0DB7265F58CA00AB56DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6BD0DB9265F591C00AB56DC /* HeaderView.swift */,
+				F6BD0DBB265F5B1000AB56DC /* DescView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6BD0DB8265F58DC00AB56DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6BD0DAB265F577300AB56DC /* ContentView.swift in Sources */,
+				F6BD0DAB265F577300AB56DC /* Main.swift in Sources */,
+				F6BD0DBA265F591C00AB56DC /* HeaderView.swift in Sources */,
 				F6BD0DA9265F577300AB56DC /* SwiftUiCodingExamplesApp.swift in Sources */,
+				F6BD0DBC265F5B1000AB56DC /* DescView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
