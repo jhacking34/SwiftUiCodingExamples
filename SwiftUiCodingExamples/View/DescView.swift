@@ -24,7 +24,6 @@ struct DescView: View {
             .padding()
             .background(back)
             .foregroundColor(textColor)
-            .cornerRadius(10)
     }
 }
 

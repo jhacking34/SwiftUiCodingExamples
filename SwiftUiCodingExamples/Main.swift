@@ -8,25 +8,30 @@
 import SwiftUI
 
 struct Main: View {
+    
+    var viewModel = MainViewModel()
+    
     var body: some View {
         NavigationView{
             ScrollView{
                 VStack{
                     HeaderView("Swift UI", subtitle: "Code Examples", desc: "This app has examples for practice righting code and soemthing to refer back to for help", back: .blue, textColor: .white)
-                    NavigationLink(
-                        destination: DescView("test")){
-                        HStack(spacing: 10){
-                            Text("State Object")
-                                .foregroundColor(.primary)
-                            Image(systemName: "checkmark.seal.fill")
-                                .foregroundColor(.green)
-                            Spacer()
-                            Image(systemName: "chevron.right.circle.fill")
+                    ForEach(self.viewModel.examples, id: \.self){ example in
+                        NavigationLink(
+                            destination: viewModel.getExampleView(example.name)){
+                            HStack(spacing: 10){
+                                Text(example.name)
+                                    .foregroundColor(.primary)
+                                Image(systemName: "checkmark.seal.fill")
+                                    .foregroundColor(.green)
+                                Spacer()
+                                Image(systemName: "chevron.right.circle.fill")
+                            }
+                            .padding().background(Color.white)
+                            .cornerRadius(8)
+                            .shadow(radius: 1, y:1)
+                            .padding(.horizontal)
                         }
-                        .padding().background(Color.white)
-                        .cornerRadius(8)
-                        .shadow(radius: 1, y:1)
-                        .padding()
                     }
                 }
                 
