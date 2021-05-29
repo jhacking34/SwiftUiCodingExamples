@@ -25,6 +25,8 @@ struct StateObjectCar: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle())
             }
             .padding()
+            
+            Spacer()
         }
         .font(.title2)
     }

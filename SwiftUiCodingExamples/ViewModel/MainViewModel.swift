@@ -14,8 +14,8 @@ final class MainViewModel {
     func getExampleView(_ exampleName : String) -> some View {
         
         switch exampleName {
-        case "State Object" :
-            return DescView(exampleName)
+        case "State Object Car" :
+            return StateObjectCar()
         case "test Example" :
             return DescView(exampleName)
         default:

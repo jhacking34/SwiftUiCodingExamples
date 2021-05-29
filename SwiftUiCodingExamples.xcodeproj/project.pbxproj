@@ -17,6 +17,8 @@
 		F6C50ADB26612253005614EC /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C50ADA26612253005614EC /* MainViewModel.swift */; };
 		F6FE0C972662765F001DC2E7 /* StateObjectCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0C962662765F001DC2E7 /* StateObjectCar.swift */; };
 		F6FE0C9926627684001DC2E7 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0C9826627684001DC2E7 /* Car.swift */; };
+		F6FE0C9B26627DBB001DC2E7 /* StateObject_WithPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0C9A26627DBB001DC2E7 /* StateObject_WithPicker.swift */; };
+		F6FE0C9D26627EF6001DC2E7 /* CarChoices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0C9C26627EF6001DC2E7 /* CarChoices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		F6C50ADA26612253005614EC /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		F6FE0C962662765F001DC2E7 /* StateObjectCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectCar.swift; sourceTree = "<group>"; };
 		F6FE0C9826627684001DC2E7 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		F6FE0C9A26627DBB001DC2E7 /* StateObject_WithPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject_WithPicker.swift; sourceTree = "<group>"; };
+		F6FE0C9C26627EF6001DC2E7 /* CarChoices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarChoices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 				F6BD0DB9265F591C00AB56DC /* HeaderView.swift */,
 				F6BD0DBB265F5B1000AB56DC /* DescView.swift */,
 				F6FE0C962662765F001DC2E7 /* StateObjectCar.swift */,
+				F6FE0C9A26627DBB001DC2E7 /* StateObject_WithPicker.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -99,6 +104,7 @@
 			children = (
 				F6C50AD726611C3A005614EC /* Example.swift */,
 				F6FE0C9826627684001DC2E7 /* Car.swift */,
+				F6FE0C9C26627EF6001DC2E7 /* CarChoices.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -180,12 +186,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6FE0C9B26627DBB001DC2E7 /* StateObject_WithPicker.swift in Sources */,
 				F6BD0DAB265F577300AB56DC /* Main.swift in Sources */,
 				F6BD0DBA265F591C00AB56DC /* HeaderView.swift in Sources */,
 				F6FE0C9926627684001DC2E7 /* Car.swift in Sources */,
 				F6BD0DA9265F577300AB56DC /* SwiftUiCodingExamplesApp.swift in Sources */,
 				F6FE0C972662765F001DC2E7 /* StateObjectCar.swift in Sources */,
 				F6BD0DBC265F5B1000AB56DC /* DescView.swift in Sources */,
+				F6FE0C9D26627EF6001DC2E7 /* CarChoices.swift in Sources */,
 				F6C50AD826611C3A005614EC /* Example.swift in Sources */,
 				F6C50ADB26612253005614EC /* MainViewModel.swift in Sources */,
 			);

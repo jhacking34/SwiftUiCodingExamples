@@ -13,8 +13,8 @@ struct Example: Hashable {
 }
 
 struct Examples {
-    static let stateObject = Example(name: "State Object")
+    static let stateObjectCar = Example(name: "State Object Car")
     static let testExample = Example(name: "test Example")
     
-    static let exampleList = [stateObject, testExample]
+    static let exampleList = [stateObjectCar, testExample]
 }
