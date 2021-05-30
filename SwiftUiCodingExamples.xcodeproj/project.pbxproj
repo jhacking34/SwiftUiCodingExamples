@@ -20,6 +20,9 @@
 		F6FE0C9B26627DBB001DC2E7 /* StateObject_WithPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0C9A26627DBB001DC2E7 /* StateObject_WithPicker.swift */; };
 		F6FE0C9D26627EF6001DC2E7 /* CarChoices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0C9C26627EF6001DC2E7 /* CarChoices.swift */; };
 		F6FE0C9F2663F167001DC2E7 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0C9E2663F167001DC2E7 /* HelloWorld.swift */; };
+		F6FE0CA12663FCA8001DC2E7 /* WeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0CA02663FCA8001DC2E7 /* WeatherForecast.swift */; };
+		F6FE0CA32663FE45001DC2E7 /* ObservableObject_Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0CA22663FE45001DC2E7 /* ObservableObject_Forecast.swift */; };
+		F6FE0CA5266401D7001DC2E7 /* WeatherForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0CA4266401D7001DC2E7 /* WeatherForecastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		F6FE0C9A26627DBB001DC2E7 /* StateObject_WithPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject_WithPicker.swift; sourceTree = "<group>"; };
 		F6FE0C9C26627EF6001DC2E7 /* CarChoices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarChoices.swift; sourceTree = "<group>"; };
 		F6FE0C9E2663F167001DC2E7 /* HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
+		F6FE0CA02663FCA8001DC2E7 /* WeatherForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecast.swift; sourceTree = "<group>"; };
+		F6FE0CA22663FE45001DC2E7 /* ObservableObject_Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject_Forecast.swift; sourceTree = "<group>"; };
+		F6FE0CA4266401D7001DC2E7 /* WeatherForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,8 @@
 				F6FE0C962662765F001DC2E7 /* StateObjectCar.swift */,
 				F6FE0C9A26627DBB001DC2E7 /* StateObject_WithPicker.swift */,
 				F6FE0C9E2663F167001DC2E7 /* HelloWorld.swift */,
+				F6FE0CA22663FE45001DC2E7 /* ObservableObject_Forecast.swift */,
+				F6FE0CA4266401D7001DC2E7 /* WeatherForecastView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -108,6 +116,7 @@
 				F6C50AD726611C3A005614EC /* Example.swift */,
 				F6FE0C9826627684001DC2E7 /* Car.swift */,
 				F6FE0C9C26627EF6001DC2E7 /* CarChoices.swift */,
+				F6FE0CA02663FCA8001DC2E7 /* WeatherForecast.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -192,10 +201,13 @@
 				F6FE0C9B26627DBB001DC2E7 /* StateObject_WithPicker.swift in Sources */,
 				F6BD0DAB265F577300AB56DC /* Main.swift in Sources */,
 				F6BD0DBA265F591C00AB56DC /* HeaderView.swift in Sources */,
+				F6FE0CA12663FCA8001DC2E7 /* WeatherForecast.swift in Sources */,
+				F6FE0CA5266401D7001DC2E7 /* WeatherForecastView.swift in Sources */,
 				F6FE0C9F2663F167001DC2E7 /* HelloWorld.swift in Sources */,
 				F6FE0C9926627684001DC2E7 /* Car.swift in Sources */,
 				F6BD0DA9265F577300AB56DC /* SwiftUiCodingExamplesApp.swift in Sources */,
 				F6FE0C972662765F001DC2E7 /* StateObjectCar.swift in Sources */,
+				F6FE0CA32663FE45001DC2E7 /* ObservableObject_Forecast.swift in Sources */,
 				F6BD0DBC265F5B1000AB56DC /* DescView.swift in Sources */,
 				F6FE0C9D26627EF6001DC2E7 /* CarChoices.swift in Sources */,
 				F6C50AD826611C3A005614EC /* Example.swift in Sources */,

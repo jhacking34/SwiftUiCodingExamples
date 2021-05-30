@@ -15,7 +15,7 @@ struct Main: View {
         NavigationView{
             ScrollView{
                 VStack{
-                    HeaderView("Swift UI", subtitle: "Code Examples", desc: "This app has examples for practice righting code and soemthing to refer back to for help", back: .blue, textColor: .white)
+                    HeaderView("Swift UI", subtitle: "Code Examples", desc: "This app has examples for practice righting code and soemthing to refer back to for help it shows how to pass data in Swift UI", back: .blue, textColor: .white)
                     ForEach(self.viewModel.examples, id: \.self){ example in
                         NavigationLink(
                             destination: viewModel.getExampleView(example.name)){

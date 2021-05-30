@@ -18,6 +18,8 @@ final class MainViewModel {
             return AnyView(StateObjectCar())
         case "State Object With Picker" :
             return AnyView(StateObject_WithPicker())
+        case "Observed Object Weather Forecast" :
+            return AnyView(ObservableObject_Forecast())
         case "test Exampl" :
             return AnyView(StateObjectCar())
         default:
