@@ -14,7 +14,8 @@ struct Example: Hashable {
 
 struct Examples {
     static let stateObjectCar = Example(name: "State Object Car")
+    static let stateObjectWithPicker = Example(name: "State Object With Picker")
     static let testExample = Example(name: "test Example")
     
-    static let exampleList = [stateObjectCar, testExample]
+    static let exampleList = [stateObjectCar, stateObjectWithPicker, testExample]
 }

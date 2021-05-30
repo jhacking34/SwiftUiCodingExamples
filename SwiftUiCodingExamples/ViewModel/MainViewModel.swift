@@ -15,11 +15,13 @@ final class MainViewModel {
         
         switch exampleName {
         case "State Object Car" :
-            return StateObjectCar()
-        case "test Example" :
-            return DescView(exampleName)
+            return AnyView(StateObjectCar())
+        case "State Object With Picker" :
+            return AnyView(StateObject_WithPicker())
+        case "test Exampl" :
+            return AnyView(StateObjectCar())
         default:
-            return DescView("test")
+            return AnyView(HelloWorld())
         }
     }
     
