@@ -23,7 +23,7 @@ struct EnvironmentUsername: View {
                     Toggle("Show as online", isOn: $user.showAsOnline)
                 }
             }
-            .frame(width: .infinity, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            .frame(height: 200)
             
             LoggedOnUser()
             Spacer()
