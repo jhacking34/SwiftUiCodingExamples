@@ -20,6 +20,12 @@ final class MainViewModel {
             return AnyView(StateObject_WithPicker())
         case "Observed Object Weather Forecast" :
             return AnyView(ObservableObject_Forecast())
+        case "AppStorage Intro":
+            return AnyView(AppStorage_Intro())
+        case "AppStorage Struct":
+            return AnyView(AppStorage_StoreStruct())
+        case "Environement Intro":
+            return AnyView(EnvironmentObjectIntro())
         case "test Exampl" :
             return AnyView(StateObjectCar())
         default:

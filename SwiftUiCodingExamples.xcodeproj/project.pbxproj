@@ -23,6 +23,14 @@
 		F6FE0CA12663FCA8001DC2E7 /* WeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0CA02663FCA8001DC2E7 /* WeatherForecast.swift */; };
 		F6FE0CA32663FE45001DC2E7 /* ObservableObject_Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0CA22663FE45001DC2E7 /* ObservableObject_Forecast.swift */; };
 		F6FE0CA5266401D7001DC2E7 /* WeatherForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0CA4266401D7001DC2E7 /* WeatherForecastView.swift */; };
+		F6FE0CA726650D38001DC2E7 /* AppStorage_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0CA626650D38001DC2E7 /* AppStorage_Intro.swift */; };
+		F6FE0CA926650E85001DC2E7 /* Appstorage_Edit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0CA826650E85001DC2E7 /* Appstorage_Edit.swift */; };
+		F6FE0CAB266513BB001DC2E7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0CAA266513BB001DC2E7 /* User.swift */; };
+		F6FE0CAD26651505001DC2E7 /* AppStorage_StoreStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0CAC26651505001DC2E7 /* AppStorage_StoreStruct.swift */; };
+		F6FE0CAF26665CD7001DC2E7 /* EnvironmentObjectIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0CAE26665CD7001DC2E7 /* EnvironmentObjectIntro.swift */; };
+		F6FE0CB126665DC5001DC2E7 /* NameInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0CB026665DC5001DC2E7 /* NameInfo.swift */; };
+		F6FE0CB326665E1C001DC2E7 /* TabViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0CB226665E1C001DC2E7 /* TabViewOne.swift */; };
+		F6FE0CB5266660B4001DC2E7 /* TabViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0CB4266660B4001DC2E7 /* TabViewTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +52,14 @@
 		F6FE0CA02663FCA8001DC2E7 /* WeatherForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecast.swift; sourceTree = "<group>"; };
 		F6FE0CA22663FE45001DC2E7 /* ObservableObject_Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject_Forecast.swift; sourceTree = "<group>"; };
 		F6FE0CA4266401D7001DC2E7 /* WeatherForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastView.swift; sourceTree = "<group>"; };
+		F6FE0CA626650D38001DC2E7 /* AppStorage_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_Intro.swift; sourceTree = "<group>"; };
+		F6FE0CA826650E85001DC2E7 /* Appstorage_Edit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appstorage_Edit.swift; sourceTree = "<group>"; };
+		F6FE0CAA266513BB001DC2E7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F6FE0CAC26651505001DC2E7 /* AppStorage_StoreStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_StoreStruct.swift; sourceTree = "<group>"; };
+		F6FE0CAE26665CD7001DC2E7 /* EnvironmentObjectIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectIntro.swift; sourceTree = "<group>"; };
+		F6FE0CB026665DC5001DC2E7 /* NameInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameInfo.swift; sourceTree = "<group>"; };
+		F6FE0CB226665E1C001DC2E7 /* TabViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewOne.swift; sourceTree = "<group>"; };
+		F6FE0CB4266660B4001DC2E7 /* TabViewTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +122,12 @@
 				F6FE0C9E2663F167001DC2E7 /* HelloWorld.swift */,
 				F6FE0CA22663FE45001DC2E7 /* ObservableObject_Forecast.swift */,
 				F6FE0CA4266401D7001DC2E7 /* WeatherForecastView.swift */,
+				F6FE0CA626650D38001DC2E7 /* AppStorage_Intro.swift */,
+				F6FE0CA826650E85001DC2E7 /* Appstorage_Edit.swift */,
+				F6FE0CAC26651505001DC2E7 /* AppStorage_StoreStruct.swift */,
+				F6FE0CAE26665CD7001DC2E7 /* EnvironmentObjectIntro.swift */,
+				F6FE0CB226665E1C001DC2E7 /* TabViewOne.swift */,
+				F6FE0CB4266660B4001DC2E7 /* TabViewTwo.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -117,6 +139,8 @@
 				F6FE0C9826627684001DC2E7 /* Car.swift */,
 				F6FE0C9C26627EF6001DC2E7 /* CarChoices.swift */,
 				F6FE0CA02663FCA8001DC2E7 /* WeatherForecast.swift */,
+				F6FE0CAA266513BB001DC2E7 /* User.swift */,
+				F6FE0CB026665DC5001DC2E7 /* NameInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,18 +222,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6FE0CA726650D38001DC2E7 /* AppStorage_Intro.swift in Sources */,
 				F6FE0C9B26627DBB001DC2E7 /* StateObject_WithPicker.swift in Sources */,
 				F6BD0DAB265F577300AB56DC /* Main.swift in Sources */,
 				F6BD0DBA265F591C00AB56DC /* HeaderView.swift in Sources */,
 				F6FE0CA12663FCA8001DC2E7 /* WeatherForecast.swift in Sources */,
 				F6FE0CA5266401D7001DC2E7 /* WeatherForecastView.swift in Sources */,
+				F6FE0CAD26651505001DC2E7 /* AppStorage_StoreStruct.swift in Sources */,
 				F6FE0C9F2663F167001DC2E7 /* HelloWorld.swift in Sources */,
+				F6FE0CAB266513BB001DC2E7 /* User.swift in Sources */,
 				F6FE0C9926627684001DC2E7 /* Car.swift in Sources */,
 				F6BD0DA9265F577300AB56DC /* SwiftUiCodingExamplesApp.swift in Sources */,
+				F6FE0CB5266660B4001DC2E7 /* TabViewTwo.swift in Sources */,
+				F6FE0CAF26665CD7001DC2E7 /* EnvironmentObjectIntro.swift in Sources */,
 				F6FE0C972662765F001DC2E7 /* StateObjectCar.swift in Sources */,
 				F6FE0CA32663FE45001DC2E7 /* ObservableObject_Forecast.swift in Sources */,
+				F6FE0CB126665DC5001DC2E7 /* NameInfo.swift in Sources */,
+				F6FE0CA926650E85001DC2E7 /* Appstorage_Edit.swift in Sources */,
 				F6BD0DBC265F5B1000AB56DC /* DescView.swift in Sources */,
 				F6FE0C9D26627EF6001DC2E7 /* CarChoices.swift in Sources */,
+				F6FE0CB326665E1C001DC2E7 /* TabViewOne.swift in Sources */,
 				F6C50AD826611C3A005614EC /* Example.swift in Sources */,
 				F6C50ADB26612253005614EC /* MainViewModel.swift in Sources */,
 			);
