@@ -12,6 +12,7 @@ struct TabViewTwo: View {
     
     var body: some View {
         VStack{
+            LoggedOnUser()
             Text("Tab 2")
                 .font(.largeTitle)
             HeaderView("@EnvironmentObject", subtitle: "Intro", desc: "This view can access the environmentObject property wrapper", back: .green, textColor: .black)

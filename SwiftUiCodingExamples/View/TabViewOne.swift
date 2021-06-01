@@ -12,6 +12,7 @@ struct TabViewOne: View {
     
     var body: some View {
         VStack{
+            LoggedOnUser()
             Text("Tab 1")
                 .font(.largeTitle)
             HeaderView("@Environment Object", subtitle: "Intro", desc: "User the enviornmentObject modifer to add ObervableObjects to parent views.")

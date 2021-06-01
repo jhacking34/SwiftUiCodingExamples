@@ -20,6 +20,7 @@ struct Examples {
     static let AppStoreStruct = (Example(name: "AppStorage Struct"))
     static let testExample = Example(name: "test Example")
     static let EnvironmentIntro = Example(name: "Environement Intro")
+    static let EnvironmentUser = Example(name: "Environment Username")
     
-    static let exampleList = [stateObjectCar, stateObjectWithPicker, ObservedObjectWeather, AppStorageIntro, AppStoreStruct, EnvironmentIntro,testExample]
+    static let exampleList = [stateObjectCar, stateObjectWithPicker, ObservedObjectWeather, AppStorageIntro, AppStoreStruct, EnvironmentIntro, EnvironmentUser,testExample]
 }

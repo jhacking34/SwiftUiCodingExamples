@@ -12,6 +12,7 @@ struct SwiftUiCodingExamplesApp: App {
     var body: some Scene {
         WindowGroup {
             Main()
+                .environmentObject(UserModel())
         }
     }
 }

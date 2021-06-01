@@ -28,6 +28,8 @@ final class MainViewModel {
             return AnyView(EnvironmentObjectIntro())
         case "test Exampl" :
             return AnyView(StateObjectCar())
+        case "Environment Username" :
+            return AnyView(EnvironmentUsername())
         default:
             return AnyView(HelloWorld())
         }

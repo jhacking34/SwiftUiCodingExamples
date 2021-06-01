@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3741FCE126668A0500C8B6A3 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3741FCE026668A0500C8B6A3 /* UserModel.swift */; };
+		3741FCE326668AAB00C8B6A3 /* EnvironmentUsername.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3741FCE226668AAB00C8B6A3 /* EnvironmentUsername.swift */; };
+		3741FCE52666947F00C8B6A3 /* LoggedOnUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3741FCE42666947F00C8B6A3 /* LoggedOnUser.swift */; };
 		F6BD0DA9265F577300AB56DC /* SwiftUiCodingExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD0DA8265F577300AB56DC /* SwiftUiCodingExamplesApp.swift */; };
 		F6BD0DAB265F577300AB56DC /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD0DAA265F577300AB56DC /* Main.swift */; };
 		F6BD0DAD265F577500AB56DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BD0DAC265F577500AB56DC /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3741FCE026668A0500C8B6A3 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		3741FCE226668AAB00C8B6A3 /* EnvironmentUsername.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentUsername.swift; sourceTree = "<group>"; };
+		3741FCE42666947F00C8B6A3 /* LoggedOnUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOnUser.swift; sourceTree = "<group>"; };
 		F6BD0DA5265F577300AB56DC /* SwiftUiCodingExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiCodingExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6BD0DA8265F577300AB56DC /* SwiftUiCodingExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiCodingExamplesApp.swift; sourceTree = "<group>"; };
 		F6BD0DAA265F577300AB56DC /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
@@ -128,6 +134,8 @@
 				F6FE0CAE26665CD7001DC2E7 /* EnvironmentObjectIntro.swift */,
 				F6FE0CB226665E1C001DC2E7 /* TabViewOne.swift */,
 				F6FE0CB4266660B4001DC2E7 /* TabViewTwo.swift */,
+				3741FCE226668AAB00C8B6A3 /* EnvironmentUsername.swift */,
+				3741FCE42666947F00C8B6A3 /* LoggedOnUser.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -141,6 +149,7 @@
 				F6FE0CA02663FCA8001DC2E7 /* WeatherForecast.swift */,
 				F6FE0CAA266513BB001DC2E7 /* User.swift */,
 				F6FE0CB026665DC5001DC2E7 /* NameInfo.swift */,
+				3741FCE026668A0500C8B6A3 /* UserModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -230,14 +239,17 @@
 				F6FE0CA5266401D7001DC2E7 /* WeatherForecastView.swift in Sources */,
 				F6FE0CAD26651505001DC2E7 /* AppStorage_StoreStruct.swift in Sources */,
 				F6FE0C9F2663F167001DC2E7 /* HelloWorld.swift in Sources */,
+				3741FCE126668A0500C8B6A3 /* UserModel.swift in Sources */,
 				F6FE0CAB266513BB001DC2E7 /* User.swift in Sources */,
 				F6FE0C9926627684001DC2E7 /* Car.swift in Sources */,
 				F6BD0DA9265F577300AB56DC /* SwiftUiCodingExamplesApp.swift in Sources */,
 				F6FE0CB5266660B4001DC2E7 /* TabViewTwo.swift in Sources */,
 				F6FE0CAF26665CD7001DC2E7 /* EnvironmentObjectIntro.swift in Sources */,
 				F6FE0C972662765F001DC2E7 /* StateObjectCar.swift in Sources */,
+				3741FCE52666947F00C8B6A3 /* LoggedOnUser.swift in Sources */,
 				F6FE0CA32663FE45001DC2E7 /* ObservableObject_Forecast.swift in Sources */,
 				F6FE0CB126665DC5001DC2E7 /* NameInfo.swift in Sources */,
+				3741FCE326668AAB00C8B6A3 /* EnvironmentUsername.swift in Sources */,
 				F6FE0CA926650E85001DC2E7 /* Appstorage_Edit.swift in Sources */,
 				F6BD0DBC265F5B1000AB56DC /* DescView.swift in Sources */,
 				F6FE0C9D26627EF6001DC2E7 /* CarChoices.swift in Sources */,
